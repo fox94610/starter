@@ -1,0 +1,6 @@
+{
+  "hooks": {
+		"precommit": "yarn test",
+		"prepush": "yarn test"
+  }
+}
