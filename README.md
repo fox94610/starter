@@ -1,4 +1,4 @@
-TO RUN LOCALLY  
+RUN LOCALLY  
 yarn start  
 yarn dev:wds  
 
