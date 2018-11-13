@@ -1,13 +1,13 @@
-# TO RUN LOCALLY
-yarn start
-yarn dev:wds
+TO RUN LOCALLY  
+yarn start  
+yarn dev:wds  
 
-# TEST CODE
-yarn lint
-yarn test
+TEST CODE  
+yarn lint  
+yarn test  
 
-# PRODUCTION
-prod:build
-prod:start
-prod:stop
+PRODUCTION  
+prod:build  
+prod:start  
+prod:stop  
 
