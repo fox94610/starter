@@ -1,5 +1,6 @@
 {
   "env": {
+    "browser": true,
     "jest": true
   },
   "extends": [
@@ -13,6 +14,12 @@
   "rules": {
     "semi": [2, "never"],
     "no-unexpected-multiline": 2,
-    "compat/compat": 2
+    "compat/compat": 2,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "no-console": 0,
+    "object-curly-newline": 0
+  },
+  "settings": {
+    "polyfills": ["fetch"]
   }
 }
